@@ -1,0 +1,64 @@
+<html>
+
+<head>
+
+    <title>contato</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <form action="http://test.gstr" method="POST">
+
+
+            <h1>Contato</h1>
+            <button><a href="index.html">Voltar</a></button> 
+
+
+
+            <label for="pNome">Primiro Nome</label>
+            <input type="text" id="pNome" name="pNome" required minlength="3" requiered>
+
+
+
+            <label for="uNome">Último Nome</label>
+            <input type="text" id="uNome" name="uNome" required>
+
+
+            <label for="emQualcidade">Em que cidade você mora?</label>
+
+            <select id="emQualcidade" name="emQualcidade">
+                <option>Selecione</option>
+                <option value="recife">Recife</option>
+                <option value="olinda">Olinda</option>
+                <option value="jaboatao">Jaboatão</option>
+            </select>
+
+
+            <label for="aSsunto">Assunto</label>
+            <input type="text" id="aSsunto" name="aSsunto">
+
+
+            <label fpr="message"> Mensagenm</label>
+
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+
+
+            <input type="submit" value="Enviar" class="submit">
+
+
+
+        </form>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
